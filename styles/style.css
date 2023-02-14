@@ -1,0 +1,22 @@
+.inputAmountFiled{
+    padding: 10px;
+    align-items: center;
+    border: 2px solid rgb(24, 219, 24);
+}
+/* .inputAmountFiled:hover{
+    border: 10px soild rgb(152, 152, 185);
+    background-color: rgb(69, 120, 120)12, 244, 244);
+} */
+
+.inputDiscounttFiled{
+    padding: 10px;
+    align-items: center;
+    border: 2px solid rgb(24, 219, 24);
+}
+.inputDiscounttFiled:hover{
+    border: 10px soild blue;
+    background-color: rgb(244, 201, 211);
+}
+hr{
+    background-color: black;
+}
