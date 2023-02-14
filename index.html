@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline text-center">
+    Welcome To InterNational Discount Calculetor.
+  </h1>
+  <div class="text-center mt-10">
+    <input type="text" id="inputAmountFiled" class="inputAmountFiled " placeholder="Type Your Price: ">
+    <input type="text" id="inputDiscountFiled" class="inputDiscounttFiled " placeholder="Type Your Parsenties %%: "> <br>
+    <button id="btnApply1" class="p-5 bg-pink-400 m-2 rounded-lg hover:bg-green-400">Apply Now</button>
+    <h2 class="p-5 font-bold text-3xl text-yellow-400"> Total DisCount: $ <span id="total-discount"></span></h2>
+    <h2 class="P-5 font-bold text-3xl text-green-400 ">$ New Price : <span id="new-price"></span></h2>
+    <hr> 
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
